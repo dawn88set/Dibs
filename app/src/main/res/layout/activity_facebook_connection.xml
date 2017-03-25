@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.shaharcohen.dibs.activities.FacebookConnection">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+
+         android:fitsSystemWindows. -->
+    <ImageView
+        android:layout_marginTop="37dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dibslogo"
+        android:layout_width="120dp" />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_marginTop="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user_img"
+        android:layout_width="100dp" />
+    <TextView
+        android:text="Wellcome"
+        android:id="@+id/Wellcom"
+        tools:textColorLink="@color/colorBottomNavigationPrimary"
+        tools:textStyle="bold|italic"
+        android:textStyle="normal|bold|italic"
+        android:textSize="20sp"
+        android:width="100dp"
+        android:textIsSelectable="false"
+        android:layout_width="80dp"
+        android:layout_toStartOf="@+id/user_name"
+        android:layout_above="@+id/login_button"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:text="name"
+        android:id="@+id/user_name"
+        android:layout_height="50px"
+        android:fontFamily="sans-serif"
+        android:layout_width="200px"
+        android:textIsSelectable="true"
+        tools:textSize="20sp"
+        android:textStyle="normal|bold|italic"
+        android:layout_above="@+id/login_button"
+        android:layout_alignEnd="@+id/login_button"
+        android:layout_marginBottom="35dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp" />
+
+
+
+</RelativeLayout>

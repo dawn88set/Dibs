@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174852254533",
+    "firebase_url": "https://dibs-application.firebaseio.com",
+    "project_id": "dibs-application",
+    "storage_bucket": "dibs-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174852254533:android:1838e781e0ee31eb",
+        "android_client_info": {
+          "package_name": "com.example.shaharcohen.dibs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174852254533-6afebucr8i8skgot424lgr61q3q8ev47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shaharcohen.dibs",
+            "certificate_hash": "E67AAF2AECA302EE79E0C4038DE3D0C28AB6ED11"
+          }
+        },
+        {
+          "client_id": "174852254533-45d5fnu1u5nbq42d7f77oupnh8rltt9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtuk1-h_0EEEq-CnDpstf2cqclmIqN6EA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174852254533-45d5fnu1u5nbq42d7f77oupnh8rltt9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

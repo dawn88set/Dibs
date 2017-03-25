@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dibs</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">312480569147978</string>
+    <string name="fb_login_protocol_scheme">fb312480569147978</string>
+    <string name="title_activity_tab_menu_controller">TabMenuController</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="messegesFragment">MessegestFragment</string>
+    <string name="MyProfileFragment">My Profile Fragment</string>
+    <string name="UserslistFragment">Users List Fragment</string>
+    <string name="chat">Messeges</string>
+    <string name="connections">Connections</string>
+    <string name="profile">Profile</string>
+    <string name="messages">Messages</string>
+
+</resources>
